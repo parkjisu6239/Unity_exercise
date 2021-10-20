@@ -435,3 +435,9 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/unity,windows,visualstudio
+sinarang_FPS_TPS/Assets/Cartoon_Texture_Pack/
+sinarang_FPS_TPS/Assets/TextMesh Pro/
+sinarang_FPS_TPS/ProjectSettings/
+sinarang_FPS_TPS/UserSettings/
+sinnarang_exercise01/UserSettings/
+sinarang_FPS_TPS/Assets/Models/
