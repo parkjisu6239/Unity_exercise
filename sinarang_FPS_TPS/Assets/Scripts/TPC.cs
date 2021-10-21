@@ -52,9 +52,9 @@ public class TPC : MonoBehaviour
             dist -= 1 * Input.mouseScrollDelta.y;
 
             //마우스 스크롤했을경우 카메라 거리의 Min과Max
-            if (dist < 0.5)
+            if (dist < 0)
             {
-                dist = 1;
+                dist = 0;
 
             }
 
