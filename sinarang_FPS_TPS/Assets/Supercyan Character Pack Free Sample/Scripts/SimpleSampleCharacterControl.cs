@@ -110,6 +110,16 @@ public class SimpleSampleCharacterControl : MonoBehaviour
         {
             m_jumpInput = true;
         }
+
+        if (Input.GetKey(KeyCode.Q))
+        {
+            m_animator.SetTrigger("Wave");
+        }
+
+        if (Input.GetKey(KeyCode.Z))
+        {
+            m_animator.SetTrigger("Pickup");
+        }
     }
 
     private void FixedUpdate()
