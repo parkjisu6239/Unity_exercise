@@ -14,7 +14,8 @@ public class ButtonClick : MonoBehaviour
 
     private void OnMouseDown()
     {
-        modal.SetActive(true);
+        //modal.SetActive(true);
+        Application.OpenURL("http://unity3d.com/");
     }
 
     // Update is called once per frame
